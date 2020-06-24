@@ -4,7 +4,7 @@ This repository contains the code and datasets for the paper Use of econometrics
 
 The code was developed by Bruna Lobato Barreira and Roberto Fray da Silva.
 
-Reference of the paper: XXX (reference of the paper)
+Reference of the paper: XXX (reference of the paper).
 To cite this repository: XXX (reference of the paper)
 
 ## To Do (further research, out of the scope of this paper):
