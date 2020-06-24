@@ -1,6 +1,8 @@
 # Use of econometrics and machine learning models to predict the number of new cases per day of COVID-19 - Code and datasets
 ## Description
-This repository contains the code and datasets for the paper Use of econometrics and machine learning models to predict the number of new cases per day of COVID-19, accepted at the SBCAS 2020 (20º Simpósio Brasileiro de Computação Aplicada à Saúde) scientific event. Descriptions of the implementation and the dataset are contained in the paper (link: XXX, the link will be inserted once it is available).
+This repository contains the code and datasets for the paper Use of econometrics and machine learning models to predict the number of new cases per day of COVID-19, by Roberto F. Silva, Bruna L. Barreira, Fernando Xavier, Antônio M. Saraiva, and Carlos E. Cugnasca. This paper was accepted at the SBCAS 2020 (20º Simpósio Brasileiro de Computação Aplicada à Saúde) scientific event. Descriptions of the implementation and the dataset are contained in the paper (link: XXX, the link will be inserted once it is available). The code is composed of 2 Colab notebooks: 
+1. SarimaArimaEnsembles -> contains the implementations of the Arima, Sarima, and all ensemble models. Currently, the ensembles data is hardcoded (further work is being done to automate the ensemble generation)
+2. AdaBoostGBR -> contains the implementations of the AdaBoost and GBR models
 
 The code was developed by Bruna Lobato Barreira and Roberto Fray da Silva.
 
@@ -8,6 +10,7 @@ Reference of the paper: XXX (reference of the paper).
 To cite this repository: XXX (reference of the paper)
 
 ## To Do (further research, out of the scope of this paper):
+- substitute the hardcoded values on the ensembles notebook
 - optimize code for deployment in production (there are several parts of the code that can be improved)
 - deploy code for daily evaluation
 - incorporate new variables (socioeconomic, population density, etc) and more recent data
