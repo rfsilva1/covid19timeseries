@@ -1,8 +1,9 @@
 # Use of econometrics and machine learning models to predict the number of new cases per day of COVID-19 - Code and datasets
 ## Description
-This repository contains the code and datasets for the paper Use of econometrics and machine learning models to predict the number of new cases per day of COVID-19, by Roberto F. Silva, Bruna L. Barreira, Fernando Xavier, Antônio M. Saraiva, and Carlos E. Cugnasca. This paper was accepted at the SBCAS 2020 (20º Simpósio Brasileiro de Computação Aplicada à Saúde) scientific event. Descriptions of the implementation and the dataset are contained in the paper (link: XXX, the link will be inserted once it is available). The code is composed of 2 Colab notebooks: 
-1. SarimaArimaEnsembles -> contains the implementations of the Arima, Sarima, and all ensemble models. Currently, the ensembles data is hardcoded (further work is being done to automate the ensemble generation)
-2. AdaBoostGBR -> contains the implementations of the AdaBoost and GBR models
+This repository contains the code and datasets for the paper Use of econometrics and machine learning models to predict the number of new cases per day of COVID-19, by Roberto F. Silva, Bruna L. Barreira, Fernando Xavier, Antônio M. Saraiva, and Carlos E. Cugnasca. This paper was accepted at the SBCAS 2020 (20º Simpósio Brasileiro de Computação Aplicada à Saúde) scientific event. Descriptions of the implementation and the dataset are contained in the paper (link: XXX, the link will be inserted once it is available). The code is composed of 3 Colab notebooks: 
+1. Adaboost_for_newcases___Final_Github.ipynb -> contains the implementations of the AdaBoost
+2. Gradient_Boosting_for_newcases___Final_Github.ipynb -> contains the implementations of the GBR
+3. Sarima_Arima_Ensembles___Final_Github.ipynb -> contains the implementations of the Sarima, Arima, and all Ensemble models (econometrics ensembles: (i) Arima+Sarima; (ii) ML ensembles: AdaBoost+GBR; and (iii) ensembles of all models: Arima+Sarima+AdaBoost+GBR
 
 The code was developed by Bruna Lobato Barreira and Roberto Fray da Silva.
 
